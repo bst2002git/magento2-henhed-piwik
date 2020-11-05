@@ -194,11 +194,11 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
      * Retrieve Piwik site ID
      *
      * @param null|string|bool|int|Store $store
-     * @return int
+     * @return string
      */
     public function getSiteId($store = null)
     {
-        return (int) $this->scopeConfig->getValue(
+        return $this->scopeConfig->getValue(
             self::XML_PATH_SITE_ID,
             \Magento\Store\Model\ScopeInterface::SCOPE_STORE,
             $store

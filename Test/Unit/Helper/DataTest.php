@@ -162,7 +162,7 @@ class DataTest extends \PHPUnit\Framework\TestCase
      *
      * @param bool $enabled
      * @param string $hostname
-     * @param int $siteId
+     * @param string $siteId
      * @param bool $returnValue
      * @return void
      * @dataProvider isTrackingEnabledDataProvider
@@ -351,7 +351,7 @@ class DataTest extends \PHPUnit\Framework\TestCase
      * @param bool $linkEnabled
      * @param bool $enabled
      * @param string $hostname
-     * @param int $siteId
+     * @param string $siteId
      * @param bool $returnValue
      * @dataProvider isLinkTrackingEnabledDataProvider
      */
