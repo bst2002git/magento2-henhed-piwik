@@ -37,7 +37,7 @@
 (function (w, d) {
     w._paq = w._paq || [];
     w._paq.push(['setTrackerUrl', '<?= $block->escapeJsQuote($block->getTrackerUrl()); ?>']);
-    w._paq.push(['setSiteId', <?= $block->getSiteId(); ?>]);
+    w._paq.push(['setSiteId', '<?= $block->getSiteId(); ?>']);
     var g = d.createElement('script'),
         s = d.getElementsByTagName('script')[0];
     g.type = 'text/javascript';
